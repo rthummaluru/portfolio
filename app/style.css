@@ -1,0 +1,16 @@
+/* #region css */
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    margin-right: 132px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #FFE0B5;
+}
