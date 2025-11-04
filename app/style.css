@@ -14,3 +14,20 @@ header {
     height: 100px;
     background-color: #FFE0B5;
 }
+
+.profile-section {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 320px;
+    margin-top: 100px;
+}
+
+.profile-section img {
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+    border: 5px solid #D8AE7E;
+}
