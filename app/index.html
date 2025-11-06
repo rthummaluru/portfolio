@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -44,9 +45,73 @@
     </section>
     <section class="projects-section">
         <h2>Projects</h2>
-        <p>
-            Threadweaver: Work is scattered across Slack, Notion, and WhatsApp Business, forcing constant context-switching to stay updated. This unified AI assistant connects all three platforms into a single chat interface where you can search for information and take actions across your entire workspace. No more jumping between apps just ask and act. <br>
-        </p>
+        <div class="projects-timeline-container">
+            <div class="projects-timeline" id="projectsTimeline">
+                <div class="project-card">
+                    <div class="project-date">2024</div>
+                    <h3>Threadweaver</h3>
+                    <p>Work is scattered across Slack, Notion, and WhatsApp Business, forcing constant context-switching to stay updated. This unified AI assistant connects all three platforms into a single chat interface where you can search for information and take actions across your entire workspace.</p>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">API Integration</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-date">2024</div>
+                    <h3>Data Pipeline Optimizer</h3>
+                    <p>Built a scalable data engineering pipeline using AWS and Databricks that processes millions of records daily. Implemented automated ETL workflows with real-time monitoring and error handling, reducing processing time by 60%.</p>
+                    <div class="project-tags">
+                        <span class="tag">AWS</span>
+                        <span class="tag">Databricks</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-date">2023</div>
+                    <h3>AI Agent Framework</h3>
+                    <p>Developed a modular AI agent framework that enables rapid deployment of intelligent automation systems. The framework supports multiple LLM providers and includes built-in memory management and tool integration capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">AI Agents</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-date">2023</div>
+                    <h3>Financial Analytics Dashboard</h3>
+                    <p>Created an interactive financial analytics dashboard combining real-time market data with predictive models. Built with React frontend and Python backend, featuring advanced data visualization and automated report generation.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Data Viz</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-date">2022</div>
+                    <h3>Cloud Migration Tool</h3>
+                    <p>Designed and implemented a tool for automated cloud infrastructure migration with zero-downtime deployment. Supports multi-cloud environments and includes comprehensive testing and rollback capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">Cloud</span>
+                        <span class="tag">DevOps</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-date">2022</div>
+                    <h3>Smart Recommendation Engine</h3>
+                    <p>Built a machine learning recommendation system using collaborative filtering and deep learning techniques. Processes user behavior data to provide personalized content recommendations with 85% accuracy.</p>
+                    <div class="project-tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>← Scroll to explore →</span>
+        </div>
     </section>
     <section class="contact-section">
         <h2>Contact</h2>
