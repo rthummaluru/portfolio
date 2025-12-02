@@ -28,6 +28,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100px;
+    text-align: center;
     background-color: #FFE0B5;
 }
 
@@ -66,7 +67,9 @@ header {
     color: #D8AE7E;
     font-size: 32px;
     margin-bottom: 40px;
+    margin-top: 0;
     width: 100%;
+    text-align: center;
 }
 
 .about-content {
@@ -111,6 +114,9 @@ header {
     color: #D8AE7E;
     font-size: 32px;
     margin-bottom: 40px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .projects-timeline-container {
@@ -234,9 +240,9 @@ header {
 }
 
 .contact-section {
-    max-width: 1200px;
+    width: 100%;
     margin: 80px auto;
-    padding: 40px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -244,11 +250,27 @@ header {
     color: #D8AE7E;
     font-size: 32px;
     margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-section p {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: auto;
 }
 
 .contact-section form {
     display: inline-block;
-    margin: 10px;
+    width: 150px;
+    flex: 0 0 auto;
+    margin-left: 10px;
 }
 
 .contact-section button {
@@ -261,6 +283,7 @@ header {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    width: 100%;
 }
 
 .contact-section button:hover {
